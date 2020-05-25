@@ -1,0 +1,2 @@
+Los enlaces son verdes porque se declara después la propiedad verde (después de haber declarado la roja)
+Si cambiamos ul y li por divs desaparecen los puntos de la lista.

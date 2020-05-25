@@ -1,0 +1,17 @@
+
+
+.container{
+    height:100px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items:center
+    
+
+}
+.home{
+    padding:20px;
+}
+.contacto{
+    padding:20px;
+}
