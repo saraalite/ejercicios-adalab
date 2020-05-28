@@ -1,0 +1,10 @@
+.header {
+    background-color: purple;
+    position: fixed;
+    z-index: 999;
+}
+
+.container {
+    position: relative;
+    top: 200px;
+}

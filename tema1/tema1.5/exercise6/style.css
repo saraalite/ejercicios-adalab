@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  top: 200px;
+}
+
+.cookies-message {
+  background-color: yellow;
+  position: fixed;
+  /* SUPER IMPORTANTE DEJAR EL BOTTOM O PX, SINO NO SALE */
+  bottom: 0px;
+  /*   left: 0px;
+  right: 0px; */
+  height: 100px;
+  margin-bottom: 0px;
+}
