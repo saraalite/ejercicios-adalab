@@ -1,0 +1,31 @@
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20vh 60vh 20vh;
+    
+
+}
+.item{
+    border:1px solid black;
+}
+.item1{
+    grid-column:span 12;
+    text-align: center;
+}
+.item14{
+    grid-column:span 12;
+    grid-row: 20vh;
+}
+.item2, .item3, .item4, .item5 {
+    background-color:purple;
+}
+.item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13{
+    background-color:rgb(167, 75, 95);
+}
+.item1{
+    background-color: lightpink;
+}
+.item14{
+    background-color:lightskyblue;
+    text-align: center;
+}

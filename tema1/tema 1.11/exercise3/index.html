@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--     <link rel="stylesheet" href="style.css" /> -->
+    <title>1.11. Formularios</title>
+  </head>
+  <body>
+    <h1>Create an account</h1>
+    <h5>It's free and always will be.</h5>
+    <form action="" method="post">
+      <label for="firstName"></label>
+      <input
+        placeholder="First Name"
+        id="firstName"
+        type="text"
+        name="firstName"
+        required
+      />
+      <label for="surname"></label>
+      <input
+        placeholder="Surname"
+        id="surname"
+        type="text"
+        name="surname"
+      /><br />
+      <label for="email"></label>
+      <input
+        placeholder="Email or phone number"
+        id="email"
+        type="email"
+        type="tel"
+        name="email"
+        required
+      /> </br>
+
+      <label for="email"></label>
+      <input
+        placeholder="Re-enter email or phone number"
+        id="email"
+        type="email"
+        type="tel"
+        name="email"
+        required
+      />
+      <br />
+
+      <label for="password"></label>
+      <input
+        placeholder="New password"
+        type="password"
+        id="password"
+        name="password"
+        required
+      />
+
+      <h5>Birthday</h5>
+      <label for="day"></label>
+      <select id="day" name="day">
+        <option value="36">1</option>
+        <option value="37">2</option>
+        <option value="38">3</option>
+        <option value="39">4</option>
+        <option value="40">5</option>
+        <option value="41">6</option>
+        <option value="42">7</option>
+        <option value="43">8</option>
+        <option value="44">9</option>
+        <!-- ... continuación de la serie -->
+      </select>
+      <label for="month"></label>
+      <select id="month" name="month">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <!-- ... continuación de la serie -->
+      </select>
+      <label for="year"></label>
+      <select id="year" name="year">
+        <option value="2020">2020</option>
+        <option value="2019">2019</option>
+        <option value="2018">2018</option>
+        <option value="2017">2017</option>
+
+        <!-- ... continuación de la serie -->
+      </select> </br>
+      <div>
+        <label for="genre">
+          <input
+            id="genre1"
+            type="radio"
+            value="male"
+            name="genre1"
+          />
+          Male
+        </label>
+      </div>
+      <div>
+        <label for="genre2">
+          <input
+            id="genre2"
+            type="radio"
+            value="female"
+            name="genre2"
+          />
+          Female
+        </label>
+      </div>
+      <div>
+        <label for="genre3">
+          <input
+            id="genre3"
+            type="radio"
+            value="other"
+            name="genre3"
+          />
+          Other
+        </label>
+      </div>
+
+
+
+
+
+
+      <input type="submit" value="Create an account" /> </br>
+
+      <input type="reset" value="Clean form" />
+    </form>
+  </body>
+</html>
