@@ -7,17 +7,46 @@ paragraph.addEventListener('mouseover', function addText() {
  */
 // const buttonElement = document.querySelector('.button');
 
-function changeColor(event) {
-  switch(event.key) {
-    case 'r':
+function changeColor() {
+  if(event.key === 'r') {
       document.body.style.backgroundColor = "red";
-      break;
-    case 'm':
+  } else if(event.key ===  'm') {
       document.body.style.backgroundColor = "purple";
-      break;
-    default:
-      return
   }
 }
 
+
 document.addEventListener("keydown", changeColor);
+
+/* 
+const buttonElement = document.querySelector('.button');
+
+function handleButtonClick(event) {
+  console.log(event.currentTarget);
+}
+
+buttonElement.addEventListener('click', handleButtonClick);
+
+ */
+
+function handleButtonClick(a,b) {
+  console.log(a.num);
+  const num = 1;
+  b(num);
+}
+
+const lololol = {}
+lololol.currentTarget = 'soyCurrentTarget';
+
+let objeto =  {};
+objeto.num = 5;
+objeto.num2 = 6;
+
+function myfunc(a) {
+  console.log(a);
+}
+
+const juan = myfunc;
+
+handleButtonClick(objeto, juan);
+
