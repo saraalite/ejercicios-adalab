@@ -3,6 +3,8 @@
 
 function getGithubInfo() {
 
+  //Aquí la constante userName se pone DENTRO de la función porque recoge un value, que se va a alterar (o no, pero casi siempre) cada vez que suceda el evento (lleva un .value)
+
 const userName = document.querySelector('.js-name-input').value;
 console.log(userName);
 
