@@ -1,0 +1,31 @@
+.profile-pic{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+}
+.media-card{
+  width:500px;
+  height:500px;
+  margin:auto;
+  margin-top:150px;
+  border:1px solid grey;
+  padding:20px;
+}
+.image-container{
+  
+  margin-right:50px;
+}
+.card-header{
+  display:flex;
+  flex-direction:row;
+}
+.name-date{
+  display:flex;
+  flex-direction:column;
+}
+.footer{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
