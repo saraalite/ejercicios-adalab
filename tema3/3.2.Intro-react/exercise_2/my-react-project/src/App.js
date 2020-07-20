@@ -46,8 +46,6 @@ class App extends Component {
       { header }
       { paragraph }
       { footer }
-     
-       
     </div>
     </body>);
     return visitCard;
