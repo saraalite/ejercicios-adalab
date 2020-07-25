@@ -2,9 +2,11 @@ import React from "react";
 
 import "./App.css";
 
+
+
 class App extends React.Component {
   render() {
-    const onChangeListener = (event) => {
+    const onChangeListener (event) {
       if (event.target.value.includes("cebolla")) {
         alert('¡Te he dicho que no digas "cebolla"!');
       }
@@ -12,7 +14,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <textarea
-          onChange={onChangeListener}
+          onChange={this.onChangeListener}
           name="textarea"
           rows="10"
           cols="50"
